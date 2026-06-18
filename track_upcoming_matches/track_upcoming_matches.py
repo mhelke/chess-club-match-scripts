@@ -30,7 +30,7 @@ import pandas as pd
 # ── Configuration ──────────────────────────────────────────────────────────────
 
 API_BASE      = "https://api.chess.com/pub"
-DEFAULT_USER_AGENT = "ClubScheduleAnalyzer/1.0"
+DEFAULT_USER_AGENT = "UpcomingMatchTracker/1.0"
 REQUEST_DELAY = 0.5
 MAX_RETRIES   = 3
 
