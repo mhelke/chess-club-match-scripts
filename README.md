@@ -11,6 +11,11 @@ These scripts are designed for **Chess.com club administrators** who want to:
 
 ## Scripts
 
+### [analyze_club_schedule](analyze_club_schedule/)
+Fetches and analyzes your club's complete match schedule, generating a detailed report on team load, scheduling patterns, and recommendations. Shows which time controls and rating ranges are under-utilized, helps identify optimal times for new matches.
+
+**Usage**: `python analyze_club_schedule.py <club_id>`
+
 ### [track_upcoming_matches](track_upcoming_matches/)
 Fetches and displays all upcoming matches for your club with detailed breakdowns by day, game type, and rating coverage. Shows new matches since the last run and any player count changes.
 
